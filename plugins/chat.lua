@@ -68,12 +68,6 @@ end
 if msg.text == "خیلی خستم" then
         return "خسته نباشی پهلوون"
 end
-if msg.text == "Difense" then
-        return "با عموم چکار داری ؟"
-end
-if msg.text == "difense" then
-        return "با عموم چکار داری ؟"
-end
 end
 
 return {
@@ -82,8 +76,6 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Zz]ac$",
-		"^ZAC$",
 		"^[Bb]ot$",
 		"^[Uu]mbrella$",
 		"^[Bb]ye$",
